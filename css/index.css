@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#container{
+	margin: 50px auto;
+}
+#btn{
+	width: 880px;
+	margin: 0 auto;
+}
+#pencil, #brush, #blue, #red, #black, #day, #night, #new{
+	width: 80px;
+	height: 80px;
+	background-color: green;
+	cursor: pointer;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	float: left;
+	margin: 15px;
+	font-size: 20px;
+	line-height: 80px;
+	text-align: center;
+}
+#myCanvas{			
+	background-color: white;
+	display: block;
+	margin: 30px auto;									
+}
